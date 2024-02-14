@@ -1,0 +1,6 @@
+<JavaCallout name="Java-JSON-Check">
+  <Properties>
+  </Properties>
+  <ClassName>com.google.apigee.callouts.jsoncheck.JsonCheckCallout</ClassName>
+  <ResourceURL>java://apigee-callout-json-check-20240213.jar</ResourceURL>
+</JavaCallout>

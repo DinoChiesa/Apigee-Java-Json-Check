@@ -1,0 +1,17 @@
+{
+  "notes" : [
+    "cannot read the json directly here, as it may have REPEATED FIELDS",
+    "So we need to read it separately, from a separate text file."
+  ],
+
+  "sourcefile" : "01-source.json",
+
+  "properties" : {
+    "debug" : "true"
+  },
+
+  "expected" : {
+    "success" : "true",
+    "error" : null
+  }
+}

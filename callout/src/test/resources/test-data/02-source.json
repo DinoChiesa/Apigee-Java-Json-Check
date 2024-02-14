@@ -1,0 +1,9 @@
+{
+  "quota": {
+    "prop1": "this hash has duplicate names, should be flagged",
+    "appname": "A",
+    "appname": "B",
+    "appname": "B"
+  },
+  "another_field" : "value does not matter"
+}

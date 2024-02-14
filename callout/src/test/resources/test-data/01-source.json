@@ -1,0 +1,22 @@
+{
+    "quota": [
+      {
+        "appname": "A",
+        "operation": "ManageOrder",
+        "value": "900"
+      },
+      {
+        "appname": "B",
+        "operation": "ManageOrder",
+        "value": "1000"
+      },
+      {
+        "appname": "B",
+        "operation": "SubmitOrder",
+        "value": "800"
+      }
+    ],
+    "properties" : {
+      "quota" : 1
+    }
+}

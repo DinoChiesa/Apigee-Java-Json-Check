@@ -1,0 +1,11 @@
+{
+  "sourcefile" : "02-source.json",
+
+  "properties" : {
+    "debug" : "true"
+  },
+  "expected" : {
+    "success" : "false",
+    "error" : "duplicate key name"
+  }
+}

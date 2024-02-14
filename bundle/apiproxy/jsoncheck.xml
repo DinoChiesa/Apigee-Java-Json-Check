@@ -1,0 +1,4 @@
+<APIProxy revision="1" name="jsoncheck">
+  <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+  <DisplayName>jsoncheck</DisplayName>
+</APIProxy>

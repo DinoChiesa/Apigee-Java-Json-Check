@@ -1,0 +1,6 @@
+{
+    "prop1": "this hash has duplicate names, should be flagged",
+    "appname": "A",
+    "appname": "B",
+    "appname": "B"
+}

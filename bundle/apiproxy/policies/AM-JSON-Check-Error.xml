@@ -1,0 +1,10 @@
+<AssignMessage name='AM-JSON-Check-Error'>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <Set>
+    <Payload contentType='application/json'>{
+  "fault.name" : "{fault.name}",
+  "json-check-error" : "{jc.error}"
+}</Payload>
+    <StatusCode>400</StatusCode>
+  </Set>
+</AssignMessage>

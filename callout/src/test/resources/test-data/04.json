@@ -1,0 +1,11 @@
+{
+  "sourcefile" : "04-source.json",
+
+  "properties" : {
+    "debug" : "true"
+  },
+  "expected" : {
+    "success" : "false",
+    "error" : "invalid json"
+  }
+}

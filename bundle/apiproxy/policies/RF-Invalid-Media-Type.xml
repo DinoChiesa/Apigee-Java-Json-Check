@@ -1,0 +1,15 @@
+<RaiseFault name='RF-Invalid-Media-Type'>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <FaultResponse>
+    <Set>
+      <Payload contentType='application/json'>{
+  "error" : {
+    "code" : 415.01,
+    "message" : "you must pass a payload with content-type application/json."
+  }
+}
+</Payload>
+      <StatusCode>415</StatusCode>
+    </Set>
+  </FaultResponse>
+</RaiseFault>
